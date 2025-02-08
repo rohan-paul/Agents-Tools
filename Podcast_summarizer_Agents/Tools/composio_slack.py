@@ -5,6 +5,11 @@ This module defines the composio_slack_tool function, which sets up and returns
 the Slack integration tool provided by the Composio platform. This tool is used by
 the slack_agent to send messages to a specified Slack channel.
 
+Integrations in Composio are configuration objects that define how your application connects
+to external services (like GitHub, Slack, or HubSpot). Each integration encapsulates authentication
+credentials (OAuth Client ID/Secret), permission scopes, and API specifications that determine
+how your users can interact with the external service.
+
 The tool is created by initializing a ComposioToolSet and retrieving the Slack-specific
 tools using the App.SLACK configuration.
 """

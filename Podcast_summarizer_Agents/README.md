@@ -7,7 +7,7 @@ The project takes a YouTube podcast URL, extracts and transcribes its audio, sum
 ```bash
 youtube_url = https://www.youtube.com/watch?v=7T4-aEuGajI
 
-slack_channel = "a-sumary-channel" (noticed a Typo).
+slack_channel = "podcast-summary-channel" (noticed a Typo).
 
 ```
 
